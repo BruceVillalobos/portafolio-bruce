@@ -1,127 +1,122 @@
-﻿    <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portafolio Bruce | Proyectos</title>
-        <meta name="description" content="Proyectos web de Bruce Villalobos Vilcamiza.">
-        <link rel="icon" type="image/svg+xml" href="favicon.svg">
-        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Inter:wght@400;500&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
-        <a class="skip-link" href="#contenido">Ir al contenido</a>
-        <header class="cabecera">
-            <div class="contenedor">
-                <a class="logo" href="index.html">Portafolio <span class="logo-bruce">Bruce</span></a>
-                <nav aria-label="Menú principal">
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="sobre-mi.html">Sobre mí</a></li>
-                        <li><a class="activo" href="proyectos.html">Proyectos</a></li>
-                        <li><a href="habilidades.html">Habilidades</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-                <a class="btn-whatsapp" href="https://wa.me/51958869705" target="_blank" rel="noopener">WhatsApp</a>
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Portafolio Bruce | Proyectos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="cabecera">
+      <div class="contenedor">
+        <a class="logo" href="index.html">Portafolio <em>Bruce</em></a>
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre-mi.html">Sobre mí</a></li>
+          <li><a class="activo" href="proyectos.html">Proyectos</a></li>
+          <li><a href="habilidades.html">Habilidades</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <a class="btn-wa" href="https://wa.me/51958869705" target="_blank">WhatsApp</a>
+      </div>
+    </header>
+    <main id="contenido">
+      <section class="cabeza-pagina">
+        <div class="contenedor">
+          <p class="mini">Trabajos</p>
+          <h1>Proyectos reales</h1>
+        </div>
+      </section>
+      <section>
+        <div class="contenedor fila-3">
+          <article class="caja">
+            <div class="foto">
+              <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80" alt="Pantalla con código HTML">
             </div>
-        </header>
-        <main id="contenido">
-            <section class="encabezado-pagina">
-                <div class="contenedor">
-                    <p class="etiqueta">Trabajos</p>
-                    <h1>Proyectos reales</h1>
-                </div>
-            </section>
-            <section>
-                <div class="contenedor grid-3">
-                    <article class="tarjeta">
-                        <figure class="imagen-proyecto">
-                            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80" alt="Pantalla con código HTML en un editor">
-                        </figure>
-                        <p class="numero-proyecto">Proyecto 01</p>
-                        <h2>Landing Page de Curso HTML</h2>
-                        <p>Página promocional para un curso básico de HTML: presentación, temario, beneficios y formulario de contacto.</p>
-                        <div class="badges">
-                            <span class="badge">HTML5</span>
-                            <span class="badge">CSS3</span>
-                        </div>
-                        <a class="boton" href="proyectos/curso-html.html">Ver proyecto</a>
-                    </article>
-                    <article class="tarjeta">
-                        <figure class="imagen-proyecto">
-                            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80" alt="Taza de café y productos de cafetería">
-                        </figure>
-                        <p class="numero-proyecto">Proyecto 02</p>
-                        <h2>Menú Digital y Catálogo</h2>
-                        <p>Catálogo de productos organizado por categorías, con imágenes, descripciones y precios de referencia.</p>
-                        <div class="badges">
-                            <span class="badge">HTML5</span>
-                            <span class="badge">CSS3</span>
-                        </div>
-                        <a class="boton" href="proyectos/menu-digital.html">Ver proyecto</a>
-                    </article>
-                    <article class="tarjeta">
-                        <figure class="imagen-proyecto">
-                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80" alt="Personas compartiendo opiniones en una reunión">
-                        </figure>
-                        <p class="numero-proyecto">Proyecto 03</p>
-                        <h2>Página de Reseñas</h2>
-                        <p>Sitio con testimonios de usuarios, puntuaciones visuales y una sección de preguntas frecuentes.</p>
-                        <div class="badges">
-                            <span class="badge">HTML5</span>
-                            <span class="badge">CSS3</span>
-                        </div>
-                        <a class="boton" href="proyectos/resenas.html">Ver proyecto</a>
-                    </article>
-                </div>
-            </section>
-            <section class="alt">
-                <div class="contenedor">
-                    <div class="titulo-seccion">
-                        <p class="etiqueta">Metodología</p>
-                        <h2>Mi proceso de trabajo</h2>
-                    </div>
-                    <div class="tarjeta">
-                        <ol class="lista">
-                            <li>Organizar la información y definir las páginas del sitio.</li>
-                            <li>Construir la estructura con HTML semántico.</li>
-                            <li>Aplicar CSS para mejorar la presentación y la adaptación a móviles.</li>
-                            <li>Revisar navegación, accesibilidad y funcionamiento de los enlaces.</li>
-                        </ol>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="contenedor">
-                    <div class="cta">
-                        <div>
-                            <h2>¿Te gustaría ver más proyectos?</h2>
-                            <p>En mi GitHub encontrarás más repositorios y prácticas.</p>
-                        </div>
-                        <a class="boton" href="https://github.com/BruceVillalobos" target="_blank" rel="noopener">Ver GitHub</a>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="pie">
-            <div class="contenedor">
-                <div>
-                    <a class="logo" href="index.html">Portafolio <span class="logo-bruce">Bruce</span></a>
-                    <strong>Bruce Villalobos Vilcamiza</strong>
-                    <p>Portafolio personal - 2026</p>
-                </div>
-                <nav class="enlaces-pie" aria-label="Enlaces del pie">
-                    <a href="index.html">Inicio</a>
-                    <a href="sobre-mi.html">Sobre mí</a>
-                    <a href="proyectos.html">Proyectos</a>
-                    <a href="habilidades.html">Habilidades</a>
-                    <a href="contacto.html">Contacto</a>
-                    <a href="https://github.com/BruceVillalobos" target="_blank" rel="noopener">GitHub</a>
-                </nav>
+            <p class="num">Proyecto 01</p>
+            <h2>Landing Page de Curso HTML</h2>
+            <p>Página promocional para un curso básico de HTML con temario, beneficios y formulario de contacto.</p>
+            <div class="etiquetas">
+              <span class="etiqueta">HTML5</span>
+              <span class="etiqueta">CSS3</span>
             </div>
-            <p class="copyright">Grandes ideas, mejores proyectos.</p>
-        </footer>
-        <a class="whatsapp-flotante" href="https://wa.me/51958869705" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">WA</a>
-    </body>
-    </html>
+            <a class="boton" href="proyectos/curso-html.html">Ver proyecto</a>
+          </article>
+          <article class="caja">
+            <div class="foto">
+              <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80" alt="Productos de cafetería">
+            </div>
+            <p class="num">Proyecto 02</p>
+            <h2>Menú Digital y Catálogo</h2>
+            <p>Catálogo de productos organizado por categorías, con imágenes, descripciones y precios.</p>
+            <div class="etiquetas">
+              <span class="etiqueta">HTML5</span>
+              <span class="etiqueta">CSS3</span>
+            </div>
+            <a class="boton" href="proyectos/menu-digital.html">Ver proyecto</a>
+          </article>
+          <article class="caja">
+            <div class="foto">
+              <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80" alt="Personas compartiendo opiniones">
+            </div>
+            <p class="num">Proyecto 03</p>
+            <h2>Página de Reseñas</h2>
+            <p>Sitio con testimonios de usuarios, puntuaciones visuales y preguntas frecuentes.</p>
+            <div class="etiquetas">
+              <span class="etiqueta">HTML5</span>
+              <span class="etiqueta">CSS3</span>
+            </div>
+            <a class="boton" href="proyectos/resenas.html">Ver proyecto</a>
+          </article>
+        </div>
+      </section>
+      <section class="gris">
+        <div class="contenedor">
+          <div class="titulo">
+            <p class="mini">Metodología</p>
+            <h2>Mi proceso de trabajo</h2>
+          </div>
+          <div class="caja">
+            <ol>
+              <li>Organizar la información y definir las páginas del sitio.</li>
+              <li>Construir la estructura con HTML semántico.</li>
+              <li>Aplicar CSS para mejorar la presentación y adaptarla a móviles.</li>
+              <li>Revisar navegación, accesibilidad y funcionamiento de los enlaces.</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="contenedor">
+          <div class="aviso">
+            <div>
+              <h2>¿Te gustaría ver más proyectos?</h2>
+              <p>En mi GitHub encontrarás más repositorios y prácticas.</p>
+            </div>
+            <a class="boton" href="https://github.com/BruceVillalobos" target="_blank">Ver GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="pie">
+      <div class="contenedor">
+        <div>
+          <a class="logo" href="index.html">Portafolio <em>Bruce</em></a>
+          <strong>Bruce Villalobos Vilcamiza</strong>
+          <p>Portafolio personal - 2026</p>
+        </div>
+        <nav class="pie-links">
+          <a href="index.html">Inicio</a>
+          <a href="sobre-mi.html">Sobre mí</a>
+          <a href="proyectos.html">Proyectos</a>
+          <a href="habilidades.html">Habilidades</a>
+          <a href="contacto.html">Contacto</a>
+          <a href="https://github.com/BruceVillalobos" target="_blank">GitHub</a>
+        </nav>
+      </div>
+      <p class="credito">Grandes ideas, mejores proyectos.</p>
+    </footer>
+    <a class="wa-flotante" href="https://wa.me/51958869705" target="_blank">WA</a>
+  </body>
+</html>

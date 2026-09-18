@@ -1,187 +1,182 @@
-﻿    <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Curso de HTML | Proyecto de Bruce Villalobos</title>
-        <meta name="description" content="Landing page de un curso básico de HTML.">
-        <link rel="icon" type="image/svg+xml" href="../favicon.svg">
-        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Inter:wght@400;500&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../css/styles.css">
-    </head>
-    <body>
-        <a class="skip-link" href="#contenido">Ir al contenido</a>
-        <header class="cabecera">
-            <div class="contenedor">
-                <a class="logo" href="../index.html">Portafolio <span class="logo-bruce">Bruce</span></a>
-                <nav aria-label="Menú principal">
-                    <ul>
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="../sobre-mi.html">Sobre mí</a></li>
-                        <li><a class="activo" href="../proyectos.html">Proyectos</a></li>
-                        <li><a href="../habilidades.html">Habilidades</a></li>
-                        <li><a href="../contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-                <a class="btn-whatsapp" href="https://wa.me/51958869705" target="_blank" rel="noopener">WhatsApp</a>
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Curso de HTML | Proyecto de Bruce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+    <header class="cabecera">
+      <div class="contenedor">
+        <a class="logo" href="../index.html">Portafolio <em>Bruce</em></a>
+        <ul class="menu">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="../sobre-mi.html">Sobre mí</a></li>
+          <li><a class="activo" href="../proyectos.html">Proyectos</a></li>
+          <li><a href="../habilidades.html">Habilidades</a></li>
+          <li><a href="../contacto.html">Contacto</a></li>
+        </ul>
+        <a class="btn-wa" href="https://wa.me/51958869705" target="_blank">WhatsApp</a>
+      </div>
+    </header>
+    <main id="contenido">
+      <section class="portada">
+        <div class="contenedor fila-2">
+          <div>
+            <p class="mini">Proyecto 01</p>
+            <h1>Curso de HTML básico</h1>
+            <p class="rol">Diseño y estructura de páginas web</p>
+            <p>Un curso introductorio para quienes quieren dar sus primeros pasos en el desarrollo web con HTML5.</p>
+            <div class="botones">
+              <a class="boton" href="#inscripcion">Inscribirme</a>
+              <a class="boton borde" href="#temario">Ver temario</a>
             </div>
-        </header>
-        <main id="contenido">
-            <section class="portada">
-                <div class="contenedor grid-2">
-                    <div>
-                        <p class="etiqueta">Proyecto 01</p>
-                        <h1>Curso de HTML básico</h1>
-                        <p class="portada-rol">Diseño y estructura de páginas web</p>
-                        <p>Un curso introductorio pensado para quienes quieren dar sus primeros pasos en el desarrollo web usando HTML5 y buenas prácticas.</p>
-                        <div class="botones">
-                            <a class="boton" href="#inscripcion">Inscribirme</a>
-                            <a class="boton boton-claro" href="#temario">Ver temario</a>
-                        </div>
-                    </div>
-                    <aside class="tarjeta-perfil">
-                        <div class="avatar">HTML</div>
-                        <h2>Duración: 6 semanas</h2>
-                        <p>Modalidad virtual, nivel inicial</p>
-                    </aside>
-                </div>
-            </section>
-            <section>
-                <div class="contenedor">
-                    <div class="titulo-seccion">
-                        <p class="etiqueta">Información</p>
-                        <h2>¿De qué trata el curso?</h2>
-                        <p>Un recorrido práctico por los fundamentos del lenguaje HTML.</p>
-                    </div>
-                    <div class="grid-4">
-                        <article class="tarjeta">
-                            <h3>Duración</h3>
-                            <p>6 semanas con 2 sesiones semanales de una hora.</p>
-                        </article>
-                        <article class="tarjeta">
-                            <h3>Modalidad</h3>
-                            <p>Clases virtuales en vivo y ejercicios para practicar en casa.</p>
-                        </article>
-                        <article class="tarjeta">
-                            <h3>Nivel</h3>
-                            <p>Inicial. No necesitas conocimientos previos de programación.</p>
-                        </article>
-                        <article class="tarjeta">
-                            <h3>Material</h3>
-                            <p>Apuntes, ejemplos de código y proyectos guiados paso a paso.</p>
-                        </article>
-                    </div>
-                </div>
-            </section>
-            <section class="alt" id="temario">
-                <div class="contenedor">
-                    <div class="titulo-seccion">
-                        <p class="etiqueta">Contenido</p>
-                        <h2>Temario del curso</h2>
-                    </div>
-                    <div class="grid-2">
-                        <article class="tarjeta">
-                            <h3>Módulo 1: Introducción</h3>
-                            <ul class="lista">
-                                <li>¿Qué es HTML y para qué sirve?</li>
-                                <li>Estructura básica de un documento HTML5.</li>
-                                <li>Etiquetas, atributos y anidamiento.</li>
-                            </ul>
-                        </article>
-                        <article class="tarjeta">
-                            <h3>Módulo 2: Texto y enlaces</h3>
-                            <ul class="lista">
-                                <li>Encabezados, párrafos y listas.</li>
-                                <li>Enlaces internos y externos.</li>
-                                <li>Imágenes y atributo alt.</li>
-                            </ul>
-                        </article>
-                        <article class="tarjeta">
-                            <h3>Módulo 3: Estructura semántica</h3>
-                            <ul class="lista">
-                                <li>Etiquetas header, nav, main, section y footer.</li>
-                                <li>Organización del contenido.</li>
-                                <li>Accesibilidad básica.</li>
-                            </ul>
-                        </article>
-                        <article class="tarjeta">
-                            <h3>Módulo 4: Formularios</h3>
-                            <ul class="lista">
-                                <li>Campos de entrada, etiquetas y botones.</li>
-                                <li>Validación básica con HTML.</li>
-                                <li>Construcción de una página completa.</li>
-                            </ul>
-                        </article>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="contenedor">
-                    <div class="titulo-seccion">
-                        <p class="etiqueta">Ventajas</p>
-                        <h2>Beneficios de estudiar conmigo</h2>
-                    </div>
-                    <div class="grid-3">
-                        <article class="tarjeta">
-                            <h3>Aprendizaje práctico</h3>
-                            <p>Cada clase termina con un ejercicio aplicado a un caso real.</p>
-                        </article>
-                        <article class="tarjeta">
-                            <h3>A tu ritmo</h3>
-                            <p>Las grabaciones quedan disponibles para repasar cuando quieras.</p>
-                        </article>
-                        <article class="tarjeta">
-                            <h3>Buenas prácticas</h3>
-                            <p>Desde el inicio aprenderás HTML semántico y accesible.</p>
-                        </article>
-                    </div>
-                </div>
-            </section>
-            <section class="alt" id="inscripcion">
-                <div class="contenedor">
-                    <div class="titulo-seccion">
-                        <p class="etiqueta">Inscripción</p>
-                        <h2>Solicita información</h2>
-                        <p>Completa el formulario y me pondré en contacto contigo.</p>
-                    </div>
-                    <form action="mailto:brucealfredor@gmail.com" method="post" enctype="text/plain">
-                        <div class="campo">
-                            <label for="c-nombre">Nombre completo</label>
-                            <input type="text" id="c-nombre" name="nombre" placeholder="Tu nombre" required>
-                        </div>
-                        <div class="campo">
-                            <label for="c-correo">Correo electrónico</label>
-                            <input type="email" id="c-correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
-                        </div>
-                        <div class="campo">
-                            <label for="c-mensaje">¿Qué te gustaría aprender?</label>
-                            <textarea id="c-mensaje" name="mensaje" placeholder="Cuéntame un poco sobre ti"></textarea>
-                        </div>
-                        <button class="boton" type="submit">Solicitar información</button>
-                    </form>
-                    <div class="nav-proyectos">
-                        <a class="boton boton-claro" href="../proyectos.html">Volver al portafolio</a>
-                        <a class="boton boton-claro" href="menu-digital.html">Siguiente proyecto</a>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="pie">
-            <div class="contenedor">
-                <div>
-                    <a class="logo" href="../index.html">Portafolio <span class="logo-bruce">Bruce</span></a>
-                    <strong>Bruce Villalobos Vilcamiza</strong>
-                    <p>Proyecto académico - Curso de HTML</p>
-                </div>
-                <nav class="enlaces-pie" aria-label="Enlaces del pie">
-                    <a href="../index.html">Inicio</a>
-                    <a href="../proyectos.html">Proyectos</a>
-                    <a href="../contacto.html">Contacto</a>
-                    <a href="https://github.com/BruceVillalobos" target="_blank" rel="noopener">GitHub</a>
-                </nav>
+          </div>
+          <aside class="perfil">
+            <div class="avatar">HTML</div>
+            <h2>Duración: 6 semanas</h2>
+            <p>Modalidad virtual, nivel inicial</p>
+          </aside>
+        </div>
+      </section>
+      <section>
+        <div class="contenedor">
+          <div class="titulo">
+            <p class="mini">Información</p>
+            <h2>¿De qué trata el curso?</h2>
+            <p>Un recorrido práctico por los fundamentos del lenguaje HTML.</p>
+          </div>
+          <div class="fila-4">
+            <article class="caja">
+              <h3>Duración</h3>
+              <p>6 semanas con 2 sesiones semanales de una hora.</p>
+            </article>
+            <article class="caja">
+              <h3>Modalidad</h3>
+              <p>Clases virtuales en vivo y ejercicios para practicar en casa.</p>
+            </article>
+            <article class="caja">
+              <h3>Nivel</h3>
+              <p>Inicial. No necesitas conocimientos previos de programación.</p>
+            </article>
+            <article class="caja">
+              <h3>Material</h3>
+              <p>Apuntes, ejemplos de código y proyectos guiados paso a paso.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="gris" id="temario">
+        <div class="contenedor">
+          <div class="titulo">
+            <p class="mini">Contenido</p>
+            <h2>Temario del curso</h2>
+          </div>
+          <div class="fila-2">
+            <article class="caja">
+              <h3>Módulo 1: Introducción</h3>
+              <ul class="puntos">
+                <li>¿Qué es HTML y para qué sirve?</li>
+                <li>Estructura básica de un documento HTML5.</li>
+                <li>Etiquetas, atributos y anidamiento.</li>
+              </ul>
+            </article>
+            <article class="caja">
+              <h3>Módulo 2: Texto y enlaces</h3>
+              <ul class="puntos">
+                <li>Encabezados, párrafos y listas.</li>
+                <li>Enlaces internos y externos.</li>
+                <li>Imágenes y atributo alt.</li>
+              </ul>
+            </article>
+            <article class="caja">
+              <h3>Módulo 3: Estructura semántica</h3>
+              <ul class="puntos">
+                <li>Etiquetas header, nav, main, section y footer.</li>
+                <li>Organización del contenido.</li>
+                <li>Accesibilidad básica.</li>
+              </ul>
+            </article>
+            <article class="caja">
+              <h3>Módulo 4: Formularios</h3>
+              <ul class="puntos">
+                <li>Campos de entrada, etiquetas y botones.</li>
+                <li>Validación básica con HTML.</li>
+                <li>Construcción de una página completa.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="contenedor">
+          <div class="titulo">
+            <p class="mini">Ventajas</p>
+            <h2>Beneficios de estudiar conmigo</h2>
+          </div>
+          <div class="fila-3">
+            <article class="caja">
+              <h3>Aprendizaje práctico</h3>
+              <p>Cada clase termina con un ejercicio aplicado a un caso real.</p>
+            </article>
+            <article class="caja">
+              <h3>A tu ritmo</h3>
+              <p>Las grabaciones quedan disponibles para repasar cuando quieras.</p>
+            </article>
+            <article class="caja">
+              <h3>Buenas prácticas</h3>
+              <p>Desde el inicio aprenderás HTML semántico y accesible.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="gris" id="inscripcion">
+        <div class="contenedor">
+          <div class="titulo">
+            <p class="mini">Inscripción</p>
+            <h2>Solicita información</h2>
+            <p>Completa el formulario y me pondré en contacto contigo.</p>
+          </div>
+          <form action="mailto:brucealfredor@gmail.com" method="post" enctype="text/plain">
+            <div class="campo">
+              <label for="c-nombre">Nombre completo</label>
+              <input type="text" id="c-nombre" name="nombre" placeholder="Tu nombre" required>
             </div>
-            <p class="copyright">Proyecto desarrollado únicamente con HTML5 y CSS3.</p>
-        </footer>
-        <a class="whatsapp-flotante" href="https://wa.me/51958869705" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">WA</a>
-    </body>
-    </html>
+            <div class="campo">
+              <label for="c-correo">Correo electrónico</label>
+              <input type="email" id="c-correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+            </div>
+            <div class="campo">
+              <label for="c-mensaje">¿Qué te gustaría aprender?</label>
+              <textarea id="c-mensaje" name="mensaje" placeholder="Cuéntame un poco sobre ti"></textarea>
+            </div>
+            <button class="boton" type="submit">Solicitar información</button>
+          </form>
+          <div class="nav-proyectos">
+            <a class="boton borde" href="../proyectos.html">Volver al portafolio</a>
+            <a class="boton borde" href="menu-digital.html">Siguiente proyecto</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="pie">
+      <div class="contenedor">
+        <div>
+          <a class="logo" href="../index.html">Portafolio <em>Bruce</em></a>
+          <strong>Bruce Villalobos Vilcamiza</strong>
+          <p>Proyecto académico - Curso de HTML</p>
+        </div>
+        <nav class="pie-links">
+          <a href="../index.html">Inicio</a>
+          <a href="../proyectos.html">Proyectos</a>
+          <a href="../contacto.html">Contacto</a>
+          <a href="https://github.com/BruceVillalobos" target="_blank">GitHub</a>
+        </nav>
+      </div>
+      <p class="credito">Proyecto desarrollado únicamente con HTML5 y CSS3.</p>
+    </footer>
+    <a class="wa-flotante" href="https://wa.me/51958869705" target="_blank">WA</a>
+  </body>
+</html>
