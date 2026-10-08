@@ -538,3 +538,32 @@ textarea { min-height: 120px; resize: vertical; }
   font-size: 14px;
   color: #7a8aa0;
 }
+/* ===== Ajustes responsive finales ===== */
+@media (max-width: 850px) {
+  .portada .fila-2 {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .portada {
+    padding: 40px 0 50px;
+  }
+  .portada h1 {
+    font-size: 28px;
+  }
+  .rol {
+    font-size: 15px;
+  }
+  .perfil {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .portada h1 {
+    font-size: 26px;
+  }
+  .portada {
+    padding: 35px 0 40px;
+  }
+}
